@@ -9,7 +9,7 @@ function Card(props) {
       <article className={style.faq}>
        <div>
        <h3>{title}</h3> 
-       <button onClick={(x)=>{setData(!data)}}> { data ?"+":"-"}</button>
+       <button onClick={(x)=>{setData(!data)}}> { data ?"-":"+"}</button>
        </div>
         {
           data && <p>{des}</p>
